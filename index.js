@@ -98,10 +98,10 @@ class EmojiCategory extends Component {
     let emojis = emojisByCategory[this.props.category]
     let size = this.props.emojiSize || defaultEmojiSize
     let style = {
-      fontSize: size-4,
+      fontSize: size-14,
       color: 'black',
       height: size+4,
-      width: size+4,
+      width: size+10,
       textAlign: 'center',
       padding: padding,
     }
